@@ -34,7 +34,7 @@ class MainAdapter(
 
             binding.tvName.text = content.retailer?.name
             Glide.with(context).load(content.brochureImage)
-                .placeholder(R.drawable.ic_launcher_foreground)
+                .placeholder(R.drawable.ic_placeholder)
                 .into(binding.ivImage)
         }
     }
